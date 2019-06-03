@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* .container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+} */
+
+h1{text-align: center; font-size: 90px; color: white; font-family: fantasy;}
+
+.a{background: yellow; padding: 3%; border-bottom: 1em solid white;}
+.b{background: rgb(49, 228, 174); padding: 14%; border-right: 1em solid white;}
+.c{background: rgb(230, 101, 197); padding: 14% 0%;}
+
+@media (max-width: 700px) {
+.a, .c{padding: 0%;}
+.b{padding: 27% 50%; border-bottom: 0.5em solid white;}
+.a, .b, .c{border-right: none;}
+.a{ border-bottom: 0.5em solid white;}
+}

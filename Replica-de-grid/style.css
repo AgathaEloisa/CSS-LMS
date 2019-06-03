@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* .container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+} */
+
+.col-one, .col-two, .col-three, .col-four, .col-five, .col-six{
+    padding: 2%;
+    border: 1em solid white;
+}
+.col-one{background: yellow; }
+.col-two{background: rgb(65, 221, 65);}
+.col-three{background: aquamarine;}
+.col-four{background: rgb(25, 119, 103);}
+.col-five{background: blueviolet;}
+.col-six{background: mediumvioletred;}
